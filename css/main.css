@@ -131,17 +131,18 @@ input{
     widows: 60px;
 }
 
-.user-infor li:nth-child(3) div{
-    dispaly:inline-block
+.user-info li:nth-child(3) div{
+    display:inline-block
 }
 
-.user-infor li:nth-child(3) p {
+.user-info li:nth-child(3) p {
     margin: 0;
    
 }
 
-.user-infor li:nth-child(3) a {
+.user-info li:nth-child(3) a {
     font-weight: 700;
+    color: crimson;
 }
 
 .username{
