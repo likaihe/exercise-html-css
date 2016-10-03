@@ -196,6 +196,29 @@ input{
     bottom: 0;
 }
 
+.area:hover .mask{
+    display: block;
+    cursor:pointer;
+    opacity:100;
+}
+
+.vertical-align{
+  position:relative;
+    top:50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+}
+
+.mask{
+    position: absolute;
+    background-color: rgba(226,37,37,0,9);
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+}
+
+/*
 p .view{
    color: #343434; 
 }
@@ -215,27 +238,9 @@ p .view{
     line-height: inherit;
 }
 
-.area:hover .mask{
-    display: block;
-    cursor:pointer;
-    opacity:100;
-}
 
-.vertical-align{
-  position:relative;
-    top:;
-    transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-}
 
-.mask{
-    position: absolute;
-    background-color: rgba(226,37,37,0,9);
-    width: 100%;
-    text-align: center;
-    opacity: 0;
-}
+
 
 .maks p {
     color: white;
@@ -245,4 +250,4 @@ p .view{
 .mask i {
     font-size: 80px;
     color: white;
-}
+}*/
