@@ -91,10 +91,9 @@ input{
 }
 
 .notifications{
-    float: right;
-    margin-left: 90px;
-    padding-bottom: 10px;
-    
+    position: absolute;
+    right: 240px;
+    top: 20px;
 }
 
 .notifications li:hover{
