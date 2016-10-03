@@ -198,8 +198,89 @@ input{
 
 .area:hover .mask{
     display: block;
-    cursor:pointer;
-    opacity:100;
+    opacity: 100;
+    cursor: pointer;
+   
+}
+
+
+
+.vertical-align{
+  position:relative;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+}
+ 
+
+
+.mask{
+    position: absolute;
+    top: 50%;
+    background-color: rgba(226,37,37,0,9);
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+}
+p .view{
+   color: #343434; 
+}
+
+.maks p {
+    color: white;
+    font-size:700;
+    font-weight: 900;
+}
+
+.mask i {
+    font-size: 80px;
+    color: yellow
+}
+
+p .view{
+   color: #343434; 
+}
+
+.video h2{
+    font-weight: 700;
+}
+
+.video h4{
+    font-weight: 600;
+}
+
+.video p{
+    margin: 0;
+    padding: 0;
+    color: #757a80;
+    line-height: inherit;
+}
+
+.mini{
+    list-style: none;
+}
+
+.mini h4{
+    margin-top: 13px;
+}
+
+.mini p {
+    margin-top: 6px;
+    font-size: 12px;
+}
+
+.mini i {
+    font-size: 50px;
+}
+
+.mini .duration{
+  padding: 8px 20px;  
+}
+/*
+.area:hover .mask{
+    display: block;
+    opacity: 100;
+    cursor: pointer;
 }
 
 .vertical-align{
@@ -218,20 +299,20 @@ input{
     opacity: 0;
 }
 
-/*
+
 p .view{
    color: #343434; 
 }
 
-.videos h2{
+.video h2{
     font-weight: 700;
 }
 
-.videos h4{
+.video h4{
     font-weight: 600;
 }
 
-.videos p{
+.video p{
     margin: 0;
     padding: 0;
     color: #757a80;
