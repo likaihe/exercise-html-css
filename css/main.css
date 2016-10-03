@@ -148,3 +148,101 @@ input{
     color: black;
     font-weight: 700;
 }
+
+/*Tabs*/
+.tabs {
+    text-align: center;
+    margin: -10px 0;
+}
+
+.tabs li{
+   display: inline-block;
+    text-transform: uppercase;
+    color:darkgrey;
+    font-weight: 700;
+    font-size: 12px;
+    margin: 0 20px;
+}
+
+.tabs li:hover{
+    color: cornflowerblue;
+    cursor:pointer;
+}
+
+.tabs .active{
+    border-bottom: 3px solid crimson;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: -11px;
+}
+
+.main-videos h2{
+    margin:20px 0;
+}
+
+.area{
+   position: relative;
+}
+
+.duration{
+    background-color: crimson;
+    color: white;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+p .view{
+   color: #343434; 
+}
+
+.videos h2{
+    font-weight: 700;
+}
+
+.videos h4{
+    font-weight: 600;
+}
+
+.videos p{
+    margin: 0;
+    padding: 0;
+    color: #757a80;
+    line-height: inherit;
+}
+
+.area:hover .mask{
+    display: block;
+    cursor:pointer;
+    opacity:100;
+}
+
+.vertical-align{
+  position:relative;
+    top:;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+}
+
+.mask{
+    position: absolute;
+    background-color: rgba(226,37,37,0,9);
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+}
+
+.maks p {
+    color: white;
+    font-size: 
+}
+
+.mask i {
+    font-size: 80px;
+    color: white;
+}
